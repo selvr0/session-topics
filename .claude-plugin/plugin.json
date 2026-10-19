@@ -1,0 +1,23 @@
+{
+  "name": "session-topics",
+  "version": "0.2.1",
+  "description": "Show this session's conversation by topic in a side pane, with one-line summaries and a jump back to where each started",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Pane and summary language (en, ko)",
+      "default": "en",
+      "options": [
+        "en",
+        "ko"
+      ]
+    }
+  },
+  "author": {
+    "name": "selvr0"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/selvr0/session-topics"
+}
